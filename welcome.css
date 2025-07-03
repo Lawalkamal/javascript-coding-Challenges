@@ -1,0 +1,42 @@
+h1{
+    font-size: 100px;
+    text-align: center;
+    font-family: sans-serif;
+    color: black;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 250px 0;
+}
+
+button{
+    background-color: rgb(64, 164, 221);
+    color: white;
+    padding: 20px 40px;
+    border-radius: 20px;
+    transition: 0.9s ;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover{
+    color:rgb(64, 164, 221);
+    background-color: white;
+    transform: scale(0.8);
+    border:1px solid rgb(64, 164, 221);
+}
+
+span{
+    color: rgb(64, 164, 221);
+}
+
+#changePagebtn{
+    margin: 10px 0;
+}
+
+
+
